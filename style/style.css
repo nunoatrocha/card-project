@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(45,34,36,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 400px;
+    height: 615px;
+    background-color: rgb(24, 42, 77);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.8);
+    transition: all 0.5s;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.card img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.card hr {
+    width: 350px;
+    border-color: rgb(61, 74, 112);
+}
+
+.card h3 {
+    color: rgb(61, 74, 112);
+    text-transform: uppercase;
+}
+
+.card h1 {
+    color: rgb(216, 216, 216);
+    font-weight: 300;
+}
+
+.card p {
+    color: rgb(130, 148, 189);
+    width: 80%;
+    text-align: center;
+}
+
+.logo {
+    width: 58px;
+}
+
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.logos p {
+    color: rgb(130, 148, 189);
+}
+
+.insta {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+.twitter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.facebook {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.btn-55,
+.btn-55 *,
+.btn-55 :after,
+.btn-55 :before,
+.btn-55:after,
+.btn-55:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-55 {
+  background: linear-gradient(90deg, rgb(218, 82, 72), rgb(15, 105, 209));
+  border-radius: 999px;
+  box-sizing: border-box;
+  color: #000;
+  display: block;
+  font-weight: 400;
+  overflow: hidden;
+  padding: 1.5rem 5rem;
+  position: relative;
+  text-transform: uppercase;
+  width: 180px;
+  margin: 15px 0px;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.btn-55 span {
+  background: #1e293b;
+  border-radius: 999px;
+  color: #fff;
+  display: grid;
+  inset: 2px;
+  place-items: center;
+  position: absolute;
+  transition: background 0.3s;
+}
+.btn-55:hover span {
+  background: none;
+}
+
+.btn-55:hover  {
+    transform: scale(1.03);
+  }
+
+
+.insta img:hover {
+    transform: scale(1.08);
+}
+
+.twitter img:hover {
+    transform: scale(1.08);
+}
+
+.facebook img:hover {
+    transform: scale(1.08);
+}
+
+.container:hover {
+    transform: scale(1.01);
+}
